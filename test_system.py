@@ -8,6 +8,6 @@ def test_code():
 
 def test_message():
     r = requests.get()
-        json_response = r.json()
-        assert(json_response["message"] == "")
+    json_response = r.json()
+    assert(json_response["message"] == "")
 
